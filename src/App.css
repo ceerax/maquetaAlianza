@@ -12,7 +12,7 @@ body{
 }
 
 .img-left{
-  width: 70%;
+  width: 63%;
   height: 100vh;
   overflow: hidden;
   float: left;
@@ -20,6 +20,20 @@ body{
   background-size: cover;
 }
 
+.content-Logo{
+  display: flex;
+  position: relative;
+    bottom: 75px;
+}
+
+.logo{
+  width: 109.34px;
+  height: 59.98px;
+}
+
+.tex-Logo{
+  width: 126px;
+}
 
 /* se ajusto los pixeles del top por que quedaban por fuera de la pantalla */
 
@@ -36,6 +50,9 @@ body{
   line-height: 47px;
   align-items: center;
   color: #FFFFFF;
+}
+.img-left h1 span{  
+  font-weight: bold;
 }
 .img-left h3{
   position: absolute;
@@ -54,7 +71,7 @@ body{
 }
 
 .form-Right{
-  width: 30%;
+  width: 37%;
   height: 100%;
   margin: 0;
   float: left;
@@ -73,16 +90,39 @@ body{
 }
 
 .form-Right form > input{
-  width: 100%;
-  padding: 10px;
+  width: 100%;  
   font-size: 1.2em;
+  padding: 0 15px;
+  border: 1px solid #D2D2D2;
+  border-radius: 26px;
 }
 
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+
+::placeholder {
+  color: #989898;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+}
 .form-Right label{
-  width: 100%;
-  font-size: 18px;
-  font-weight: 700;
+  width: 100%;  
   margin: 20px 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  
 }
 
 .check{
@@ -90,13 +130,34 @@ body{
   margin: 20px 0;
 }
 
-.form-Right input[type="submit"]{
-  width: 100%;
-  background-color: blue;
-  color: white;
+.form-Right input[type="submit"]{  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 10px;
+  gap: 10px;
+  background: #3737EC;
+  border-radius: 26px;
+  color: #FFFFFF;
   border: none;
-  font-size: 18px;
-  padding: 8px 30px;
+}
+
+.container-rescue{
+  width: 100%;
+}
+
+.container-rescue a{
+  color: #989898;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
 }
 
 @media(max-width:768px) {
