@@ -1,0 +1,55 @@
+.container-main {
+  background: #F5F5F5;
+  
+  width: 100vw;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+
+}
+
+.button-avatar {
+  background-image: url(../img/Avatar.png);
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 10vh
+}
+
+.logo-Home{
+  width: 61.25px;
+    height: 36.99px;
+}
+.tex-Logo-Home{
+  width: 83px;
+}
+.dropdown-menu{
+  border: none !important;
+}
+
+a{
+  transition: background-color 0.4s ease-in-out;
+}
+a:hover {
+  background-color: #3737EC !important;
+  color: white !important;
+}
+
+.texts h2{
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #3737EC;
+}
+
+.texts p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
