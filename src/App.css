@@ -9,6 +9,7 @@ body{
   width: 100%;
   height: 100vh;
   font-family: "Roboto";
+  overflow: hidden;
 }
 
 .img-left{
@@ -42,11 +43,11 @@ body{
   width: 597px;
   height: 94px;
   left: 153px;
-  top: 452px;
+  top: 443px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 47px;
   align-items: center;
   color: #FFFFFF;
@@ -59,11 +60,11 @@ body{
   width: 512px;
   height: 38px;
   left: 158px;
-  top: 583px;
+  top: 570px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 38px;
   display: flex;
   align-items: center;
@@ -160,6 +161,13 @@ body{
   white-space: nowrap;
 }
 
+@media(max-width:444px) {
+  .container-rescue a{
+    white-space:normal ;
+    
+  }
+}
+
 @media(max-width:768px) {
   .img-left{
     width: 100%;
@@ -175,4 +183,25 @@ body{
     width: 70%;
     padding: o 1em;
   }
+  .img-left h1{
+    display:none ;
+  }
+  .img-left h3{
+    display:none ;
+  }
+  .container-rescue a{
+    color: white;
+    font-size: 14px;
+  }
+  
+}
+
+@media(max-width:950px) {
+  .img-left h1{
+    left: 30px;
+  }
+  .img-left h3{
+    left: 40px;
+  }
+  
 }

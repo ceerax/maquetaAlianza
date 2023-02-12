@@ -16,7 +16,7 @@ export const Login = () => {
       <section className="form-Right">
         <form action="">
           <div className="content-Logo">
-            <div>
+            <div className="d-flex">
               <img className="logo" src={Logo} alt="" />
               <img className="tex-Logo" src={Tex} alt="" />
             </div>
