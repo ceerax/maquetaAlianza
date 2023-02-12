@@ -1,89 +1,117 @@
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-body {
+*,::before, ::after{
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
-
-.login-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
+body{
+  width: 100%;
   height: 100vh;
-  background-color: #f2f2f2;
+  font-family: "Roboto";
 }
 
-.image-wrapper {
-  flex: 1;
+.img-left{
+  width: 70%;
+  height: 100vh;
+  overflow: hidden;
+  float: left;
+  background: white url(./img/img1.png) no-repeat center;
+  background-size: cover;
+}
+
+
+/* se ajusto los pixeles del top por que quedaban por fuera de la pantalla */
+
+.img-left h1{
+  position: absolute;
+  width: 597px;
+  height: 94px;
+  left: 153px;
+  top: 452px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 47px;
+  align-items: center;
+  color: #FFFFFF;
+}
+.img-left h3{
+  position: absolute;
+  width: 512px;
+  height: 38px;
+  left: 158px;
+  top: 583px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
   display: flex;
   align-items: center;
+  color: #FFFFFF;
+}
+
+.form-Right{
+  width: 30%;
+  height: 100%;
+  margin: 0;
+  float: left;
+  background-color: white;
+  display: flex;
   justify-content: center;
 }
 
-.image-wrapper img {
-  max-width: 100%;
+.form-Right form{
+  height: 100vh;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-wrapper {
-  flex: 1;
-  max-width: 400px;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-.form-wrapper h2 {
-  margin-top: 0;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.input-group {
-  margin-bottom: 20px;
-}
-
-.input-group label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.input-group input {
-  display: block;
+.form-Right form > input{
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
-button[type="submit"] {
-  display: block;
+.form-Right label{
   width: 100%;
-  padding: 10px;
-  background-color: #008CBA;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.check{
+  width: 100%;
+  margin: 20px 0;
+}
+
+.form-Right input[type="submit"]{
+  width: 100%;
+  background-color: blue;
+  color: white;
   border: none;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+  font-size: 18px;
+  padding: 8px 30px;
 }
 
-@media (max-width: 600px) {
-  .login-wrapper {
-    flex-direction: column;
+@media(max-width:768px) {
+  .img-left{
+    width: 100%;
   }
-  
-  .image-wrapper {
-    margin-bottom: 20px;
+  .form-Right{
+    position: absolute;
+    background: transparent;
+    justify-content: center;
+    display: flex;
+    width: 100%;
   }
-  
-  .form-wrapper {
-    margin-bottom: 20px;
-    max-width: none;
+  .form-Right form{
+    width: 70%;
+    padding: o 1em;
   }
 }
