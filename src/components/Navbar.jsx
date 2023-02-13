@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBell,
   faHouse,
-  faList,
+  faTableCells,
   faAngleUp,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -23,7 +22,7 @@ export const Navbar = () => {
             onClick={() => {
               openCloseMenu();
             }}
-            icon={faBell}
+            icon={faTableCells}
           />
         </div>
         <div className="option-menu">
@@ -59,24 +58,24 @@ export const Navbar = () => {
                 >
                   <h4 className="ms-4">list🔽</h4>
                 </button>
-                <ul class="dropdown-menu bg-transparent  ">
+                <ul className="dropdown-menu bg-transparent  ">
                   <li>
-                    <a class="dropdown-item item-Text text-white " href="#">
+                    <a className="dropdown-item item-Text text-white " href="#">
                       Perfil
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item item-Text text-white" href="#">
+                    <a className="dropdown-item item-Text text-white" href="#">
                       Configuraciones
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item item-Text text-white" href="#">
+                    <a className="dropdown-item item-Text text-white" href="#">
                       Soporte
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item item-Text text-white" href="#">
+                    <a className="dropdown-item item-Text text-white" href="#">
                       Salida
                     </a>
                   </li>

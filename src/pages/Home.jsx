@@ -3,6 +3,7 @@ import Logo from "../img/Vector.png";
 import Tex from "../img/textLogo.png";
 import Avatar from "../img/Avatar.png";
 import { Navbar } from "../components/Navbar";
+import { TabHome } from "../components/TabHome";
 
 export const Home = () => {
   return (
@@ -40,7 +41,14 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <Navbar />
+      <div className="row">
+        <div className="col-1">
+          <Navbar />
+        </div>
+        <div className="col-11">
+          <TabHome />
+        </div>
+      </div>
     </>
   );
 };

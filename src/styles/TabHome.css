@@ -1,0 +1,59 @@
+.container-Name h2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 32px;
+line-height: 38px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+.container-Name{
+    position: relative;
+    top: 4rem;
+}
+
+.container-text h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.container-text{
+    position: relative;
+    top: 4rem;
+}
+
+.container-avatar{
+    position: relative;
+    top: 5rem;
+}
+
+.container-img-tab{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container-img-tab img{
+width: 27rem;
+}
+
+.form-control{
+    border-radius: 30px !important;
+}
+.modal-footer{
+    justify-content: space-between !important;
+    padding: 0px 9rem;
+}
+
+
+.btn{
+    border-radius: 30px !important;
+}
+
+.modal-header{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+}
