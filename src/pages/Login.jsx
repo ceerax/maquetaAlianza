@@ -1,4 +1,6 @@
 import React from "react";
+
+import { Link } from "react-router-dom";
 import Logo from "../img/Vector.png";
 import Tex from "../img/textLogo.png";
 import Modal from "../components/Modal";
@@ -37,7 +39,10 @@ export const Login = () => {
             <input className="mx-2" type="checkbox" name="checkbox" />
             <span>Recordar</span>
           </div>
-          <input type="submit" value="Ingresar" />
+          <Link className="button-enter" to={"/home"}>
+            <button className="button-enter">Ingresar</button>
+          </Link>
+
           <div class="row mt-3 justify-content-between container-rescue">
             <div class="col-4 p-0 ">
               <a href="/">¿Olvidaste tu usuario?</a>{" "}

@@ -51,32 +51,22 @@ export const Navbar = () => {
 
               <div class="dropdown  col-4 d-flex justify-content-center align-items-center pt-2">
                 <button
-                  class="btn  "
+                  class="btn list-btn "
                   type="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  <h4 className="ms-4">list🔽</h4>
+                  <h4 className="ms-3">lista</h4>
                 </button>
                 <ul className="dropdown-menu bg-transparent  ">
                   <li>
                     <a className="dropdown-item item-Text text-white " href="#">
-                      Perfil
+                      Empleados
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item item-Text text-white" href="#">
-                      Configuraciones
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item item-Text text-white" href="#">
-                      Soporte
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item item-Text text-white" href="#">
-                      Salida
+                      Cargo
                     </a>
                   </li>
                 </ul>

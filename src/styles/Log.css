@@ -117,7 +117,9 @@
     margin: 20px 0;
   }
   
-  .form-Right input[type="submit"]{  
+ 
+
+  .button-enter{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -128,6 +130,8 @@
     border-radius: 26px;
     color: #FFFFFF;
     border: none;
+    text-decoration: none;
+    width: 100%;
   }
   
   .container-rescue{

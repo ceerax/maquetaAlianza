@@ -18,78 +18,77 @@ const Modal = () => {
       <div
         class="modal fade"
         id="exampleModal"
-        tabindex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
+        <div className="modal-dialog modal-dialog-centered">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h1 className="modal-title fs-5" id="exampleModalLabel">
                 Nuevo empleado
               </h1>
               <button
                 type="button"
-                class="btn-close"
+                className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body row">
-              <div class=" col-6 text-start ">
-                <label for="nombre" class="form-label">
+            <div className="modal-body row">
+              <div className=" col-6 text-start ">
+                <label htmlFor="nombre" className="form-label">
                   Nombre
                 </label>
-                <input type="text" class="form-control" />
+                <input type="text" className="form-control" />
               </div>
-              <div class=" col-6 mb-3 text-start">
-                <label for="apellidp" class="form-label">
+              <div className=" col-6 mb-3 text-start">
+                <label htmlFor="apellidp" className="form-label">
                   Apellido
                 </label>
-                <input type="password" class="form-control" />
+                <input type="password" className="form-control" />
               </div>
-              <div class=" col-6 mb-3 text-start">
-                <label for="identificado" class="form-label">
+              <div className=" col-6 mb-3 text-start">
+                <label htmlFor="identificado" className="form-label">
                   Identificación
                 </label>
-                <input type="password" class="form-control" />
+                <input type="password" className="form-control" />
               </div>
-              <div class=" col-6 mb-3 text-start ">
-                <label for="telefono" class="form-label">
+              <div className=" col-6 mb-3 text-start ">
+                <label htmlFor="telefono" className="form-label">
                   Teléfono
                 </label>
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputPassword1"
                 />
               </div>
-              <div class=" col-6 mb-3 text-start">
-                <label for="ciudad" class="form-label">
+              <div className=" col-6 mb-3 text-start">
+                <label htmlFor="ciudad" className="form-label">
                   ciudad
                 </label>
                 <input
                   type="password"
-                  class="form-control"
+                  className="form-control"
                   id="exampleInputPassword1"
                 />
               </div>
-              <div class=" col-6 mb-3 text-start">
-                <label for="departamento" class="form-label">
+              <div className=" col-6 mb-3 text-start">
+                <label htmlFor="departamento" className="form-label">
                   Departamento
                 </label>
-                <input type="password" class="form-control" />
+                <input type="password" className="form-control" />
               </div>
             </div>
-            <div class="modal-footer">
+            <div className="modal-footer">
               <button
                 type="button"
-                class="btn btn-secondary"
+                className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
                 Cancelar
               </button>
-              <button type="button" class="btn btn-primary">
+              <button type="button" className="btn btn-primary">
                 Guardar
               </button>
             </div>

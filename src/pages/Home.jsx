@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../img/Vector.png";
 import Tex from "../img/textLogo.png";
 import Avatar from "../img/Avatar.png";
@@ -25,13 +26,23 @@ export const Home = () => {
             <ul class="dropdown-menu bg-secondary-subtle ">
               <li>
                 <a class="dropdown-item item-Text " href="#">
-                  Empleados
+                  Perfiñ
                 </a>
               </li>
               <li>
                 <a class="dropdown-item item-Text" href="#">
-                  cargos
+                  Configuracion
                 </a>
+              </li>
+              <li>
+                <a class="dropdown-item item-Text" href="#">
+                  Soporte
+                </a>
+              </li>
+              <li>
+                <Link class="dropdown-item item-Text" to={"/"}>
+                  Salir
+                </Link>
               </li>
             </ul>
             <div class="texts">
@@ -42,10 +53,10 @@ export const Home = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-1">
+        <div className="col col-sm-6  col-md-4 col-lg-2">
           <Navbar />
         </div>
-        <div className="col-11">
+        <div className="col col-sm-6 col-md-6 col-lg-10">
           <TabHome />
         </div>
       </div>
