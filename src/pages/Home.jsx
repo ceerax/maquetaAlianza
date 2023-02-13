@@ -23,23 +23,13 @@ export const Home = () => {
             ></button>
             <ul class="dropdown-menu bg-secondary-subtle ">
               <li>
-                <a class="dropdown-item " href="#">
-                  Perfil
+                <a class="dropdown-item item-Text " href="#">
+                  Empleados
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
-                  Configuraciones
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">
-                  Soporte
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="#">
-                  Salida
+                <a class="dropdown-item item-Text" href="#">
+                  cargos
                 </a>
               </li>
             </ul>

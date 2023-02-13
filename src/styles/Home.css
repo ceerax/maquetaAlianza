@@ -1,6 +1,8 @@
+*{
+  text-decoration: none;
+}
 .container-main {
-  background: #F5F5F5;
-  
+  background: #F5F5F5;  
   width: 100vw;
   height: 80px;
   left: 0px;
@@ -26,10 +28,10 @@
   border: none !important;
 }
 
-a{
+.item-Text{
   transition: background-color 0.4s ease-in-out;
 }
-a:hover {
+.item-Text:hover{
   background-color: #3737EC !important;
   color: white !important;
 }

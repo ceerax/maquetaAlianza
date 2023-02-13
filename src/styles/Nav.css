@@ -1,0 +1,70 @@
+.menu-Side{
+    width: 80px;
+    height: 100vh;
+    position: relative;
+    background-color: rgb(72, 72, 209);
+    top: 0;
+    left: 0;
+    color: white ;
+    font-size: 18px ;
+    overflow: hidden;
+    border-right: 20px solid rgb(72, 72, 209) ;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.name-page{
+padding: 20px 40px;
+display: flex;
+justify-content: center;
+
+}
+
+.icon-name{
+    width: 20px;
+  
+  
+
+}
+.option-menu{
+    padding: 20px 30px ;
+    position: absolute;
+    top: 80px;
+}
+
+.option-menu a{
+ 
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.option-menu .option{
+    padding: 3px 0px ;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 93px;
+}
+
+.icon-Menu{
+    width: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.option-menu .option h4{
+    color: white;
+    cursor: pointer;
+    text-decoration: none!important;
+}
+
+
+
+/* .body-move{
+    margin-left: 250px;
+} */
+
+.menu-side-move{
+    width: 250px;
+}
