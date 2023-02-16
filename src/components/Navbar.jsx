@@ -9,7 +9,6 @@ import {
 export const Navbar = () => {
   const [state, setState] = useState(false);
   const openCloseMenu = () => {
-    console.log("se hixo");
     setState((prevState) => !prevState);
   };
   return (
