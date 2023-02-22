@@ -3,7 +3,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../img/Vector.png";
 import Tex from "../img/textLogo.png";
-import Modal from "../components/Modal";
 export const Login = () => {
   return (
     <>

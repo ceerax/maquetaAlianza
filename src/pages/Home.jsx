@@ -47,7 +47,7 @@ export const Home = () => {
               </li>
             </ul>
             <div className="texts">
-              <h2 className="m-0 ">Elisa Gómez</h2>
+              <h2 className="m-0 ">Cesar Moreno</h2>
               <p className="m-0">Administradora</p>
             </div>
           </div>

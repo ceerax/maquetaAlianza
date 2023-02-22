@@ -25,7 +25,6 @@ export const Navbar = () => {
             icon={faTableCells}
           />
         </div>
-        2
         <div className="option-menu">
           <a href="/">
             <div className="option">
