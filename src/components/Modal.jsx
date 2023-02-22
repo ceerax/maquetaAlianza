@@ -7,7 +7,7 @@ const Modal = () => {
     <div>
       <button
         type="button"
-        class="btn "
+        className="btn "
         data-bs-toggle="modal"
         data-bs-target="#exampleModal"
       >
@@ -16,7 +16,7 @@ const Modal = () => {
       <p>empieza aqui</p>
 
       <div
-        class="modal fade"
+        className="modal fade"
         id="exampleModal"
         aria-labelledby="exampleModalLabel"
         aria-hidden="true"

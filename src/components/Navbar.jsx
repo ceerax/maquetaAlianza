@@ -11,6 +11,7 @@ export const Navbar = () => {
   const openCloseMenu = () => {
     setState((prevState) => !prevState);
   };
+
   return (
     <>
       <div className={`menu-Side ${state ? "menu-side-move" : "none"}`}>
@@ -24,6 +25,7 @@ export const Navbar = () => {
             icon={faTableCells}
           />
         </div>
+        2
         <div className="option-menu">
           <a href="/">
             <div className="option">
@@ -48,9 +50,9 @@ export const Navbar = () => {
                 />
               ) : null}
 
-              <div class="dropdown  col-4 d-flex justify-content-center align-items-center pt-2">
+              <div className="dropdown  col-4 d-flex justify-content-center align-items-center pt-2">
                 <button
-                  class="btn list-btn "
+                  className="btn list-btn "
                   type="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"

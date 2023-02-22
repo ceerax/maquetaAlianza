@@ -43,11 +43,11 @@ export const Login = () => {
             <button className="button-enter">Ingresar</button>
           </Link>
 
-          <div class="row mt-3 justify-content-between container-rescue">
-            <div class="col-4 p-0 ">
+          <div className="row mt-3 justify-content-between container-rescue">
+            <div className="col-4 p-0 ">
               <a href="/">¿Olvidaste tu usuario?</a>{" "}
             </div>
-            <div class="col-5 p-0 d-flex justify-content-end">
+            <div className="col-5 p-0 d-flex justify-content-end">
               <a href="/">¿Olvidaste tu contraseña?</a>{" "}
             </div>
           </div>
